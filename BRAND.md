@@ -60,3 +60,24 @@ Warm, respectful, inclusive. Speaks to every tradition without assuming one.
 - Promise attendance, donations, or fundraising results.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Community bulletin newspaper. A weekly community paper: a woven multi-color border, a masthead, pinned notes, column layouts, and a volunteer rota table that shows gaps plainly.
+- **Type:** Literata (display) / Source Sans 3 (body)
+- **Voice:** A warm, respectful coordinator who speaks to every tradition without assuming one.
+- **Persona (design assumption, not research):** Ruth, volunteer coordinator for a 150-person community (assumption): Coordinates greeters, setup, and food. The same five people do everything and she’s tired.
+
+| Color | Hex |
+|---|---|
+| Parchment | `#F8F6F0` |
+| Deep teal | `#14706B` |
+| Gold | `#D4A73A` |
+| Terracotta | `#C0603A` |
+| Terracotta text | `#9C4425` |
+| Ink | `#1E2A3A` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/gatherweek/brand.html`.

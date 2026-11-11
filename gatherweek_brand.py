@@ -100,7 +100,7 @@ BRAND = {
     ],
     "disclaimer_short": "Coordination education only. No attendance, donation, or fundraising guarantees. Follow your organization’s policies.",
     "disclaimer_long": "Gatherweek provides general volunteer-coordination and communications templates. It is not affiliated with any religious body or organization, does not guarantee attendance, volunteer sign-ups, or donations, and is not legal, tax, or fundraising-compliance advice. Get consent before sharing personal information and follow your organization’s safeguarding and privacy policies. No payments are processed on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito+Sans:wght@400;600;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Source+Sans+3:wght@400;600;700&display=swap",
     "fonts": ("Libre Baskerville", "Nunito Sans"),
     "questions": Q, "generate_plan": plan,
     "voice": "Warm, respectful, inclusive. Speaks to every tradition without assuming one.",
