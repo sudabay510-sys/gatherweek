@@ -1,0 +1,37 @@
+/* Gatherweek identity layer, Nov 2026 refresh: Community bulletin newspaper. Loaded after brand.css; visual only. */
+:root{--bg:#F8F6F0;--bg-alt:#EFEADF;--card:#FFFDF6;--ink:#1E2A3A;--muted:#525C6B;--line:#DDD6C6;--accent:#14706B;--accent-2:#0F5753;--on-accent:#FFFFFF;--hi:#D4A73A;--radius:6px;--focus:#9C4425;
+--font-display:'Literata', Georgia, serif;--font-body:'Source Sans 3', system-ui, sans-serif;--tracking:-0.005em;--cta-band-bg:#14706B;--cta-band-ink:#FFFFFF;--cta-band-btn:#D4A73A;--cta-band-btn-ink:#1E2A3A;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2{font-weight:700;letter-spacing:-.01em}
+h3{font-family:var(--font-body);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.95rem}
+.site-header{background:var(--bg);border-bottom:0}
+.site-header::after{content:"";display:block;height:8px;background:repeating-linear-gradient(90deg,#14706B 0 18px,#D4A73A 18px 36px,#C0603A 36px 54px,#1E2A3A 54px 72px)}
+.logo span{font-family:var(--font-display);font-size:1.3rem}
+.hero{background:var(--bg)}
+.hero-copy h1{border-top:3px double var(--ink);border-bottom:1px solid var(--ink);padding:.6rem 0}
+.hero-card{background:#FFF8DC;border:0;border-radius:2px;transform:rotate(1.5deg);box-shadow:0 12px 24px rgba(30,42,58,.14)}
+.hero-card::before{content:"";position:absolute;top:.6rem;left:50%;width:1rem;height:1rem;margin-left:-.5rem;border-radius:50%;background:#C0603A;box-shadow:0 2px 3px rgba(0,0,0,.3)}
+.hero-card .card-label{text-align:center;margin-top:.5rem}
+.pill-card,.feature,.price-card,.steps li,.journey-card,.faq-item,.plan-section{border-radius:2px;box-shadow:none;border-color:var(--line)}
+.plan-section{border-top:3px double var(--ink)}
+@media (min-width:900px){.plan-preview,.plan-full{column-count:2;column-gap:1.5rem}.plan-preview>h2,.plan-full>h2,.plan-full>p{column-span:all}.plan-section{break-inside:avoid;margin-top:0}}
+.dot{background:#D4A73A}
+.choice{border-radius:2px}
+.choice:has(input:checked){background:#E8F3F2;box-shadow:inset 5px 0 0 var(--accent)}
+.progress{height:.45rem;border-radius:0;background:var(--line)}.progress-bar{background:repeating-linear-gradient(90deg,#14706B 0 18px,#D4A73A 18px 36px,#C0603A 36px 54px)}
+.step-num,.journey-step{background:var(--ink);color:#F8F6F0;border-radius:2px;font-family:var(--font-display)}
+.eyebrow{color:#9C4425}
+.btn{border-radius:4px}
+.lock-banner{background:#FFF8DC;border:1px solid var(--ink);border-radius:2px}
+.safety{background:#FFF8DC;border-color:#D4A73A;border-left-color:#9C4425}
